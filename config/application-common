@@ -1,0 +1,14 @@
+server.context-path=/
+eureka.client.serviceUrl.defaultZone=http://localhost:10001/eureka/
+
+
+spring.jpa.database = MYSQL
+spring.datasource.url = jdbc:mysql://192.168.44.131:3306/emdb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+spring.datasource.username =root
+spring.datasource.password =1q2w3e4r..
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+mybatis.typeAliasesPackage=com.it.common.pojo
+mybatis.mapperLocations=classpath:mapper/*.xml
+mybatis.configuration.mapUnderscoreToCamelCase=true
+mybatis.configuration.cacheEnabled=false
